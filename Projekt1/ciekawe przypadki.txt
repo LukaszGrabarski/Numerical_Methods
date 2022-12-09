@@ -1,0 +1,7 @@
+1. f(x,y) = 1 -> koło
+2. (x.^10) ./ (y.^10) -> dzielenie bardzo małych liczb -> NaN
+3. (x.^10) -  (y.^10) -> odejmowanie bardzo małych liczb -> działa
+4. 1./(x.*y) -> error, 
+5. 1./(x.^2 + y.^2)-> tu tak samo
+6. ((x + y).^2)./(x.^2 + y.^2) -> tu nie daje rady ale całka to pi
+7. (x.^3 + y.^2)./(x.*y + 1) -> jak sie odejmnie 1 w mianowniku to sie psuje
