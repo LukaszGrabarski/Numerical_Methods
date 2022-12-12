@@ -1,0 +1,7 @@
+function res = fBiegunowa(f, r, fi)
+% funkcja zmienia daną funkcję f ze współrzętdnych kartezjańskich
+% na biegunowe
+
+res = r*f(r*cos(fi), r*sin(fi));
+
+
